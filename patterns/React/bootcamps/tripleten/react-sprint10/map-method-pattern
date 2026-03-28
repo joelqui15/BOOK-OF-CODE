@@ -1,0 +1,41 @@
+# Map Rendering Pattern
+
+## Purpose
+
+Render lists of data.
+
+## When To Use
+
+- API lists
+- UI collections
+
+## Pattern
+
+```javascript
+array.map((item) => <Component key={item.id} />);
+```
+
+## Example
+
+```javascript
+users.map((user) => <p key={user.id}>{user.name}</p>);
+```
+
+## Line-by-Line
+
+- loops through array
+- returns JSX per item
+- key ensures stable rendering
+
+## Common Mistakes
+
+- missing key
+- using index as key
+
+## What Breaks If Done Wrong
+
+- rendering bugs
+
+## Notes
+
+- always use unique key

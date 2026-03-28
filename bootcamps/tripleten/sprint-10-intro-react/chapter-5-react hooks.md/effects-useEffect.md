@@ -1,3 +1,7 @@
+# Link: https://www.youtube.com/watch?v=0ZJgIjIuY7U&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h&index=2
+
+# Link 2: https://youtu.be/PmOVnjWWRsc?si=4j2HU_elLdRdHN9V
+
 # Concept: useEffect Hook (Side Effects in React)
 
 ## What It Is
